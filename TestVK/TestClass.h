@@ -84,10 +84,6 @@ public:
   }
 
   char next(char c) {
-    // Check if we always should response with 0.
-    if (max_repeat_ <= 0)
-      return '0';
-
     Node* list_iterator = head_;
 
     auto find_next_valid_node = [](Node* list_pos, int max_repeat) {
