@@ -33,5 +33,18 @@
 // b   ->   0
 // b   ->   0
 //
-// Оценивается корректность, читаемость и эффективность реализации
-// Решение должно быть подано в виде одного .cpp файла с добавленным кодом в местах помеченных TODO```
+
+class FirstNRepeatingStream {
+private:
+  // TO DO:
+public:
+  FirstNRepeatingStream(int N) 
+  {
+    // TO DO
+  }
+
+  char next(char c) {
+    // TO DO
+  }
+};
+```
